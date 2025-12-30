@@ -1,0 +1,42 @@
+.checkout-page {
+    padding: 40px;
+    text-align: center;
+}
+
+.checkout-page h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.checkout-page p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.checkout-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.checkout-page input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.checkout-page button {
+    background: linear-gradient(90deg, #ff3f6c, #ff6f91);
+    color: white;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.checkout-page button:hover {
+    background: linear-gradient(90deg, #e6325d, #ff3f6c);
+}
